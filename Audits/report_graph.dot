@@ -1,0 +1,141 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterFERC1155" {
+  graph [ label = "FERC1155", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "FERC1155.onlyController" [ label = "onlyController", color = "#1bc6a6", shape =doubleoctagon ];
+  "FERC1155.onlyRegistry" [ label = "onlyRegistry", color = "#1bc6a6", shape =doubleoctagon ];
+  "FERC1155.burn" [ label = "burn", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.emitSetURI" [ label = "emitSetURI", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.mint" [ label = "mint", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.permit" [ label = "permit", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.permitAll" [ label = "permitAll", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.setApprovalFor" [ label = "setApprovalFor", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.setContractURI" [ label = "setContractURI", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.setMetadata" [ label = "setMetadata", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.setRoyalties" [ label = "setRoyalties", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.transferController" [ label = "transferController", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.royaltyInfo" [ label = "royaltyInfo", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "FERC1155.safeTransferFrom" [ label = "safeTransferFrom", color = "#FF9797", fillcolor = "#FF9797" ];
+  "FERC1155.uri" [ label = "uri", color = "#FF9797", fillcolor = "#FF9797" ];
+  "FERC1155.controller" [ label = "controller" ];
+  "FERC1155.INITIAL_CONTROLLER" [ label = "INITIAL_CONTROLLER" ];
+  "FERC1155.VAULT_REGISTRY" [ label = "VAULT_REGISTRY" ];
+  "FERC1155._computePermitStructHash" [ label = "_computePermitStructHash" ];
+  "FERC1155._computePermitAllStructHash" [ label = "_computePermitAllStructHash" ];
+  "FERC1155._computeDomainSeparator" [ label = "_computeDomainSeparator" ];
+  "FERC1155._computeDigest" [ label = "_computeDigest" ];
+  "FERC1155.InvalidSender" [ label = "InvalidSender" ];
+  "FERC1155._burn" [ label = "_burn" ];
+  "FERC1155.URI" [ label = "URI" ];
+  "FERC1155._mint" [ label = "_mint" ];
+  "FERC1155.SignatureExpired" [ label = "SignatureExpired" ];
+  "FERC1155.InvalidSignature" [ label = "InvalidSignature" ];
+  "FERC1155.SingleApproval" [ label = "SingleApproval" ];
+  "FERC1155.ApprovalForAll" [ label = "ApprovalForAll" ];
+  "FERC1155.SetMetadata" [ label = "SetMetadata" ];
+  "FERC1155.SetRoyalty" [ label = "SetRoyalty" ];
+  "FERC1155.ZeroAddress" [ label = "ZeroAddress" ];
+  "FERC1155.ControllerTransferred" [ label = "ControllerTransferred" ];
+  "FERC1155.TransferSingle" [ label = "TransferSingle" ];
+  "FERC1155.INFTReceiver" [ label = "INFTReceiver" ];
+  "FERC1155.IFERC1155" [ label = "IFERC1155" ];
+  "FERC1155._getArgAddress" [ label = "_getArgAddress" ];
+}
+
+  "FERC1155.onlyController";
+  "FERC1155.controller";
+  "FERC1155.InvalidSender";
+  "FERC1155.onlyRegistry";
+  "FERC1155.VAULT_REGISTRY";
+  "FERC1155.burn";
+  "FERC1155._burn";
+  "FERC1155.emitSetURI";
+  "FERC1155.URI";
+  "FERC1155.mint";
+  "FERC1155._mint";
+  "FERC1155.permit";
+  "FERC1155.SignatureExpired";
+  "FERC1155._computePermitStructHash";
+  "FERC1155._computeDigest";
+  "FERC1155._computeDomainSeparator";
+  "FERC1155.InvalidSignature";
+  "FERC1155.SingleApproval";
+  "FERC1155.permitAll";
+  "FERC1155._computePermitAllStructHash";
+  "FERC1155.ApprovalForAll";
+  "FERC1155.setApprovalFor";
+  "FERC1155.setMetadata";
+  "FERC1155.SetMetadata";
+  "FERC1155.setRoyalties";
+  "FERC1155.SetRoyalty";
+  "FERC1155.transferController";
+  "FERC1155.ZeroAddress";
+  "FERC1155.ControllerTransferred";
+  "FERC1155.safeTransferFrom";
+  "FERC1155.TransferSingle";
+  "FERC1155.INFTReceiver";
+  "FERC1155.uri";
+  "FERC1155.IFERC1155";
+  "FERC1155.INITIAL_CONTROLLER";
+  "FERC1155._getArgAddress";
+  "FERC1155.onlyController" -> "FERC1155.controller" [ color = "#1bc6a6" ];
+  "FERC1155.onlyController" -> "FERC1155.InvalidSender" [ color = "#1bc6a6" ];
+  "FERC1155.onlyRegistry" -> "FERC1155.VAULT_REGISTRY" [ color = "#1bc6a6" ];
+  "FERC1155.onlyRegistry" -> "FERC1155.InvalidSender" [ color = "#1bc6a6" ];
+  "FERC1155.burn" -> "FERC1155._burn" [ color = "#1bc6a6" ];
+  "FERC1155.emitSetURI" -> "FERC1155.InvalidSender" [ color = "#1bc6a6" ];
+  "FERC1155.emitSetURI" -> "FERC1155.URI" [ color = "#1bc6a6" ];
+  "FERC1155.mint" -> "FERC1155._mint" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155.SignatureExpired" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155._computePermitStructHash" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155._computeDigest" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155._computeDomainSeparator" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155.InvalidSignature" [ color = "#1bc6a6" ];
+  "FERC1155.permit" -> "FERC1155.SingleApproval" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155.SignatureExpired" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155._computePermitAllStructHash" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155._computeDigest" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155._computeDomainSeparator" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155.InvalidSignature" [ color = "#1bc6a6" ];
+  "FERC1155.permitAll" -> "FERC1155.ApprovalForAll" [ color = "#1bc6a6" ];
+  "FERC1155.setApprovalFor" -> "FERC1155.SingleApproval" [ color = "#1bc6a6" ];
+  "FERC1155.setMetadata" -> "FERC1155.SetMetadata" [ color = "#1bc6a6" ];
+  "FERC1155.setRoyalties" -> "FERC1155.SetRoyalty" [ color = "#1bc6a6" ];
+  "FERC1155.transferController" -> "FERC1155.ZeroAddress" [ color = "#1bc6a6" ];
+  "FERC1155.transferController" -> "FERC1155.ControllerTransferred" [ color = "#1bc6a6" ];
+  "FERC1155.safeTransferFrom" -> "FERC1155.TransferSingle" [ color = "#1bc6a6" ];
+  "FERC1155.safeTransferFrom" -> "FERC1155.INFTReceiver" [ color = "#1bc6a6" ];
+  "FERC1155.uri" -> "FERC1155.IFERC1155" [ color = "#1bc6a6" ];
+  "FERC1155.controller" -> "FERC1155.INITIAL_CONTROLLER" [ color = "#1bc6a6" ];
+  "FERC1155.INITIAL_CONTROLLER" -> "FERC1155._getArgAddress" [ color = "#1bc6a6" ];
+  "FERC1155.VAULT_REGISTRY" -> "FERC1155._getArgAddress" [ color = "#1bc6a6" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}
