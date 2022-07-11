@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="431pt" height="400pt" viewBox="0.00 0.00 431.27 400.00">
+<g id="graph0" class="graph" transform="translate(4,396) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-396 427.27,-396 427.27,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTransferReference">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 403.27,-8 403.27,-8 409.27,-8 415.27,-14 415.27,-20 415.27,-20 415.27,-235 415.27,-235 415.27,-241 409.27,-247 403.27,-247 403.27,-247 20,-247 20,-247 14,-247 8,-241 8,-235 8,-235 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="211.64" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TransferReference</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="68.29,-255 68.29,-384 389.92,-384 389.92,-255 68.29,-255" style=""/>
+<text text-anchor="middle" x="229.11" y="-367.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TransferReference.ERC20Transfer -->
+<g id="node1" class="node" pointer-events="visible" data-name="TransferReference.ERC20Transfer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="141.29" cy="-196" rx="72.36" ry="18" style=""/>
+<text text-anchor="middle" x="141.29" y="-191.8" font-family="Times,serif" font-size="14.00" style="">ERC20Transfer</text>
+</g>
+<!-- TransferReference.IERC20 -->
+<g id="node5" class="node" pointer-events="visible" data-name="TransferReference.IERC20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="354.92" cy="-196" rx="42.88" ry="18" style=""/>
+<text text-anchor="middle" x="354.92" y="-191.8" font-family="Times,serif" font-size="14.00" style="">IERC20</text>
+</g>
+<!-- TransferReference.ERC20Transfer&#45;&gt;TransferReference.IERC20 -->
+<g id="edge1" class="edge" data-name="TransferReference.ERC20Transfer-&gt;TransferReference.IERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M213.64,-196C242.56,-196 275.34,-196 301.94,-196" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="302.18,-199.5 312.18,-196 302.18,-192.5 302.18,-199.5" style=""/>
+</g>
+<!-- TransferReference.ERC721TransferFrom -->
+<g id="node2" class="node" pointer-events="visible" data-name="TransferReference.ERC721TransferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="141.29" cy="-142" rx="97.87" ry="18" style=""/>
+<text text-anchor="middle" x="141.29" y="-137.8" font-family="Times,serif" font-size="14.00" style="">ERC721TransferFrom</text>
+</g>
+<!-- TransferReference.IERC721 -->
+<g id="node6" class="node" pointer-events="visible" data-name="TransferReference.IERC721">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="354.92" cy="-142" rx="47.54" ry="18" style=""/>
+<text text-anchor="middle" x="354.92" y="-137.8" font-family="Times,serif" font-size="14.00" style="">IERC721</text>
+</g>
+<!-- TransferReference.ERC721TransferFrom&#45;&gt;TransferReference.IERC721 -->
+<g id="edge2" class="edge" data-name="TransferReference.ERC721TransferFrom-&gt;TransferReference.IERC721">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M239.43,-142C259.15,-142 279.26,-142 297.02,-142" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="297.18,-145.5 307.18,-142 297.18,-138.5 297.18,-145.5" style=""/>
+</g>
+<!-- TransferReference.ERC1155TransferFrom -->
+<g id="node3" class="node" pointer-events="visible" data-name="TransferReference.ERC1155TransferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="141.29" cy="-88" rx="102.53" ry="18" style=""/>
+<text text-anchor="middle" x="141.29" y="-83.8" font-family="Times,serif" font-size="14.00" style="">ERC1155TransferFrom</text>
+</g>
+<!-- TransferReference.IERC1155 -->
+<g id="node7" class="node" pointer-events="visible" data-name="TransferReference.IERC1155">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="354.92" cy="-61" rx="52.2" ry="18" style=""/>
+<text text-anchor="middle" x="354.92" y="-56.8" font-family="Times,serif" font-size="14.00" style="">IERC1155</text>
+</g>
+<!-- TransferReference.ERC1155TransferFrom&#45;&gt;TransferReference.IERC1155 -->
+<g id="edge3" class="edge" data-name="TransferReference.ERC1155TransferFrom-&gt;TransferReference.IERC1155">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M224.72,-77.48C248.36,-74.47 273.65,-71.24 295.53,-68.45" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="296.17,-71.9 305.64,-67.16 295.28,-64.95 296.17,-71.9" style=""/>
+</g>
+<!-- TransferReference.ERC1155BatchTransferFrom -->
+<g id="node4" class="node" pointer-events="visible" data-name="TransferReference.ERC1155BatchTransferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="141.29" cy="-34" rx="125.08" ry="18" style=""/>
+<text text-anchor="middle" x="141.29" y="-29.8" font-family="Times,serif" font-size="14.00" style="">ERC1155BatchTransferFrom</text>
+</g>
+<!-- TransferReference.ERC1155BatchTransferFrom&#45;&gt;TransferReference.IERC1155 -->
+<g id="edge4" class="edge" data-name="TransferReference.ERC1155BatchTransferFrom-&gt;TransferReference.IERC1155">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M235.42,-45.88C255.82,-48.48 276.86,-51.17 295.44,-53.54" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="295.13,-57.03 305.49,-54.82 296.02,-50.08 295.13,-57.03" style=""/>
+</g>
+<!-- key -->
+<g id="node8" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="206.29,-351 76.29,-351 76.29,-263 206.29,-263 206.29,-351" style=""/>
+<text text-anchor="start" x="125.93" y="-332.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="122.04" y="-312.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="99.49" y="-292.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="85.89" y="-272.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node9" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="381.92,-351 327.92,-351 327.92,-263 381.92,-263 381.92,-351" style=""/>
+<text text-anchor="start" x="344.92" y="-332.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="344.92" y="-312.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="342.92,-287 342.92,-307 367.92,-307 367.92,-287 342.92,-287" style=""/>
+<text text-anchor="start" x="344.92" y="-292.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="344.92,-269 344.92,-285 365.92,-285 365.92,-269 344.92,-269" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge5" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M199.29,-337C259.09,-337 276.58,-337 331.59,-337" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="331.92,-340.5 341.92,-337 331.92,-333.5 331.92,-340.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M199.29,-317C259.09,-317 276.58,-317 331.59,-317" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="331.92,-320.5 341.92,-317 331.92,-313.5 331.92,-320.5" style=""/>
+</g>
+</g>
+</svg>
