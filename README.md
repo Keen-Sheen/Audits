@@ -5,4 +5,4 @@
 
 ![An Image of Smart Contract Auditing](smart-contract-audit-cost.png)
 
-![An Image of Audit Graph](report_graph.dot)
+![An Image of Audit Graph](TransferRefrences_Graph.svg)
