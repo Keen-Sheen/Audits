@@ -19,7 +19,9 @@ Below is a "Call Graph" of the NFT. This call graph is showing the Transfer func
 ![An Image of Audit Graph](TransferRefrences_Graph.svg)
 
 
-## A call to a user-supplied addres is executed
+## A call to a user-supplied addres is executed 
+
+ ### Re-entrancy [SWC-107](https://swcregistry.io/docs/SWC-107)
 
   * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. 
 
