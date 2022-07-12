@@ -39,7 +39,7 @@ https://github.com/Keen-Sheen/Audits/blob/d94043fbc734e0e8bddd29b6888587ec002249
 
 # IERC20 Graph
 
-The `IERC20` contract is an abstract contract. The ERC20Transfer contract points directly to the IERC20 contract.
+The `IERC20` contract is an abstract contract. The ERC20Transfer contract points directly to the IERC20 contract, but doesn't have any inter or external calls.
 
 ![An Image of Audit Graph](IERC20_Graph.svg)
 
