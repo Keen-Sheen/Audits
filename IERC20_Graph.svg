@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430pt" height="368pt" viewBox="0.00 0.00 429.91 368">
+<g id="graph0" class="graph" transform="translate(4,364) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-364 425.91,-364 425.91,4 -4,4"/>
+
+
+<!-- IERC20.DOMAIN_SEPARATOR -->
+<g id="node1" class="node" pointer-events="visible" data-name="IERC20.DOMAIN_SEPARATOR">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="310" cy="-234" rx="111.81" ry="18"/>
+<text text-anchor="middle" x="310" y="-229.8" font-family="Times,serif" font-size="14.00">DOMAIN_SEPARATOR</text>
+</g>
+<!-- IERC20.allowance -->
+<g id="node2" class="node" pointer-events="visible" data-name="IERC20.allowance">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="68" cy="-72" rx="50.36" ry="18"/>
+<text text-anchor="middle" x="68" y="-67.8" font-family="Times,serif" font-size="14.00">allowance</text>
+</g>
+<!-- IERC20.approve -->
+<g id="node3" class="node" pointer-events="visible" data-name="IERC20.approve">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="321" cy="-45" rx="42.28" ry="18"/>
+<text text-anchor="middle" x="321" y="-40.8" font-family="Times,serif" font-size="14.00">approve</text>
+</g>
+<!-- IERC20.balanceOf -->
+<g id="node4" class="node" pointer-events="visible" data-name="IERC20.balanceOf">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="303" cy="-288" rx="50.92" ry="18"/>
+<text text-anchor="middle" x="303" y="-283.8" font-family="Times,serif" font-size="14.00">balanceOf</text>
+</g>
+<!-- IERC20.decimals -->
+<g id="node5" class="node" pointer-events="visible" data-name="IERC20.decimals">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="189" cy="-324" rx="45.22" ry="18"/>
+<text text-anchor="middle" x="189" y="-319.8" font-family="Times,serif" font-size="14.00">decimals</text>
+</g>
+<!-- IERC20.name -->
+<g id="node6" class="node" pointer-events="visible" data-name="IERC20.name">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="338" cy="-342" rx="31.9" ry="18"/>
+<text text-anchor="middle" x="338" y="-337.8" font-family="Times,serif" font-size="14.00">name</text>
+</g>
+<!-- IERC20.nonces -->
+<g id="node7" class="node" pointer-events="visible" data-name="IERC20.nonces">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="83" cy="-324" rx="37.71" ry="18"/>
+<text text-anchor="middle" x="83" y="-319.8" font-family="Times,serif" font-size="14.00">nonces</text>
+</g>
+<!-- IERC20.permit -->
+<g id="node8" class="node" pointer-events="visible" data-name="IERC20.permit">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="180" cy="-18" rx="36.49" ry="18"/>
+<text text-anchor="middle" x="180" y="-13.8" font-family="Times,serif" font-size="14.00">permit</text>
+</g>
+<!-- IERC20.symbol -->
+<g id="node9" class="node" pointer-events="visible" data-name="IERC20.symbol">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="336" cy="-99" rx="39.45" ry="18"/>
+<text text-anchor="middle" x="336" y="-94.8" font-family="Times,serif" font-size="14.00">symbol</text>
+</g>
+<!-- IERC20.totalSupply -->
+<g id="node10" class="node" pointer-events="visible" data-name="IERC20.totalSupply">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="200" cy="-72" rx="55.64" ry="18"/>
+<text text-anchor="middle" x="200" y="-67.8" font-family="Times,serif" font-size="14.00">totalSupply</text>
+</g>
+<!-- IERC20.transfer -->
+<g id="node11" class="node" pointer-events="visible" data-name="IERC20.transfer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="338" cy="-153" rx="40.55" ry="18"/>
+<text text-anchor="middle" x="338" y="-148.8" font-family="Times,serif" font-size="14.00">transfer</text>
+</g>
+<!-- IERC20.transferFrom -->
+<g id="node12" class="node" pointer-events="visible" data-name="IERC20.transferFrom">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="115" cy="-270" rx="61.41" ry="18"/>
+<text text-anchor="middle" x="115" y="-265.8" font-family="Times,serif" font-size="14.00">transferFrom</text>
+</g>
+<!-- key -->
+<g id="node13" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="130,-196 0,-196 0,-108 130,-108 130,-196"/>
+<text text-anchor="start" x="49.64" y="-177.4" font-family="Times,serif" font-size="14.00">Internal Call</text>
+<text text-anchor="start" x="45.75" y="-157.4" font-family="Times,serif" font-size="14.00">External Call</text>
+<text text-anchor="start" x="23.2" y="-137.4" font-family="Times,serif" font-size="14.00">Defined Contract</text>
+<text text-anchor="start" x="9.6" y="-117.4" font-family="Times,serif" font-size="14.00">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node14" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="273,-196 219,-196 219,-108 273,-108 273,-196"/>
+<text text-anchor="start" x="236" y="-177.4" font-family="Times,serif" font-size="14.00">   </text>
+<text text-anchor="start" x="236" y="-157.4" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="#445773" stroke="transparent" points="234,-132 234,-152 259,-152 259,-132 234,-132"/>
+<text text-anchor="start" x="236" y="-137.4" font-family="Times,serif" font-size="14.00">   </text>
+<polygon fill="none" stroke="#e8726d" points="236,-114 236,-130 257,-130 257,-114 236,-114"/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge1" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M122,-182C122,-182 195.94,-182 223.66,-182"/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="224,-185.5 234,-182 224,-178.5 224,-185.5"/>
+</g><g id="edge2" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M122,-162C122,-162 195.94,-162 223.66,-162"/>
+<polygon fill="white" stroke="white" stroke-width="2" points="224,-165.5 234,-162 224,-158.5 224,-165.5"/>
+</g>
+<!-- key&#45;&gt;key2 --></g>
+</svg>
