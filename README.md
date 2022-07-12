@@ -5,4 +5,12 @@
 
 ![An Image of Smart Contract Auditing](smart-contract-audit-cost.png)
 
+
+
+# A collective ownership platform for NFTs on Ethereum
+
+Below is a "Call Graph" of the NFT. This call graph is showing the Transfer functions within the smart contract.
+
+
+
 ![An Image of Audit Graph](TransferRefrences_Graph.svg)
