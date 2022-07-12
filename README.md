@@ -9,7 +9,11 @@
 
 # A collective ownership platform for NFTs on Ethereum
 
-Below is a "Call Graph" of the NFT. This call graph is showing the Transfer functions within the `TransferRefernce.sol` file.
+Below is a "Call Graph" of the NFT. This call graph is showing the Transfer functions within the `TransferRefernce.sol` file. 
+
+* The `ERC20Transfer` has an internal call that points to an abstract `IERC20` contract
+* `ERC721 TransferFrom` has an internal call that points to an abstract `IERC721` contract
+* `ERC1155TransferFrom` & `ERC1155BatchTransferFrom` points to `IERC1155`
 
 
 
