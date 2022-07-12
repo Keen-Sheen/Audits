@@ -28,3 +28,6 @@ Below is a "Call Graph" of the NFT. This call graph shows the Transfer functions
 
 
 https://github.com/Keen-Sheen/Audits/blob/d94043fbc734e0e8bddd29b6888587ec00224954/src/interfaces/IERC20.sol#L41
+
+
+![An Image of Audit Graph](IERC20_Graph.svg)
