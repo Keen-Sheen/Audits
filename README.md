@@ -23,8 +23,14 @@ Below is a "Call Graph" of the NFT. This call graph shows the Transfer functions
 ## A call to a user-supplied addres is executed 
 
  ### Re-entrancy [SWC-107](https://swcregistry.io/docs/SWC-107)
+ 
+  * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour.
 
-  * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. 
+
+### Requirement violation [SWC-123](https://swcregistry.io/docs/SWC-123)
+
+* A requirement was violated in a nested call and the call was reverted as a result. 
+
 
 
 
@@ -34,3 +40,14 @@ https://github.com/Keen-Sheen/Audits/blob/d94043fbc734e0e8bddd29b6888587ec002249
 # IERC20 Graph
 
 ![An Image of Audit Graph](IERC20_Graph.svg)
+
+
+# Prevention
+
+To solve the issues found above the developer should consider the following:
+
+* Make sure valid inputs are provided to the nested call (for instance, via passed arguments)
+
+* Make sure all internal state changes are performed before the call is executed. This is known as the Checks-Effects-Interactions pattern
+
+* Use a reentrancy lock (ie. OpenZeppelin's ReentrancyGuard https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol
