@@ -15,6 +15,7 @@ Below is a "Call Graph" of the NFT. This call graph shows the Transfer functions
 * `ERC721 TransferFrom` has an internal call that points to an abstract `IERC721` contract
 * `ERC1155TransferFrom` & `ERC1155BatchTransferFrom` both point to an abstract `IERC1155` contract.
 
+# Transfer Refrences Graph
 
 ![An Image of Audit Graph](TransferRefrences_Graph.svg)
 
@@ -29,5 +30,7 @@ Below is a "Call Graph" of the NFT. This call graph shows the Transfer functions
 
 https://github.com/Keen-Sheen/Audits/blob/d94043fbc734e0e8bddd29b6888587ec00224954/src/interfaces/IERC20.sol#L41
 
+
+# IERC20 Graph
 
 ![An Image of Audit Graph](IERC20_Graph.svg)
