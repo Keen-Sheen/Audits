@@ -17,7 +17,7 @@ Below is a "Call Graph" of the NFT. This call graph is showing the Transfer func
 
 ## A call to a user-supplied addres is executed
 
-  * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. reentering the contract in an intermediate state may lead to unexpected behaviour. 
+  * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. Reentering the contract in an intermediate state may lead to unexpected behaviour. 
 
 
 
