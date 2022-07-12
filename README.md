@@ -9,7 +9,7 @@
 
 # A collective ownership platform for NFTs on Ethereum
 
-Below is a "Call Graph" of the NFT. This call graph is showing the Transfer functions within the smart contract.
+Below is a "Call Graph" of the NFT. This call graph is showing the Transfer functions within the `TransferRefernce.sol` file.
 
 
 
