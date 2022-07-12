@@ -15,6 +15,10 @@ Below is a "Call Graph" of the NFT. This call graph is showing the Transfer func
 * `ERC721 TransferFrom` has an internal call that points to an abstract `IERC721` contract
 * `ERC1155TransferFrom` & `ERC1155BatchTransferFrom` points to an abstract `IERC1155` contract.
 
+## A call to a user-supplied addres is executed
+
+  * An external message call to an address specified by the `caller` is executed. Note that the callee account might contain arbitrary code and could re-enter any function within this contract. reentering the contract in an intermediate state may lead to unexpected behaviour. 
+
 
 
 ![An Image of Audit Graph](TransferRefrences_Graph.svg)
